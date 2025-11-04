@@ -11,7 +11,7 @@ import time
 # Upload your video here
 cap = cv2.VideoCapture("video/1.mp4")  # For Video
 
-
+# Load a model
 model = YOLO('YOLOv11n.torchscript')  # load a pretrained model
 
 

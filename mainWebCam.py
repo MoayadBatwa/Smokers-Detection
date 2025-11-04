@@ -7,10 +7,10 @@ import cvzone
 import math
 import time
 
-
+# Upload your webcam here (0 for default webcam)
 cap = cv2.VideoCapture(0)  # For Video
 
-
+# Load a model
 model = YOLO('YOLOv11n.torchscript')  # load a pretrained model
 
 
