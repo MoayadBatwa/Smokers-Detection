@@ -1,5 +1,4 @@
-# CPCS331 - Artificial Intelligence
-# Students: Moayad Batwa - Hossam Amasha
+
 
 from ultralytics import YOLO
 import cv2
