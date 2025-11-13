@@ -6,7 +6,7 @@ import cvzone
 import math
 import time
 
-# Upload your video here
+# Upload your video
 cap = cv2.VideoCapture("video/1.mp4")  # For Video
 
 # Load a model
