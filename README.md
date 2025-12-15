@@ -11,9 +11,7 @@ However, it **does not include** the test images or videos used for development.
 A real-time smoking detection system using YOLOv11 deep learning model. This project automatically detects the presence of smokers, cigarettes, vape devices, and visible smoke in images or video streams. Designed for application in restricted or anti-smoking areas such as hospitals, shopping malls, and public transportation hubs.
 
 ## 👥 Authors
-**CPCS331 - Artificial Intelligence Project**
-- Moayad Batwa
-- Hossam Amasha
+**Moayad Batwa**
 
 ## 📋 Table of Contents
 - [Problem Definition](#-problem-definition)
@@ -180,18 +178,13 @@ numpy>=1.23.0
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/MoayadBatwa/Smk-Detect.git
-cd Smk-Detect
+git clone https://github.com/MoayadBatwa/Smokers-Detection.git
+cd Smokers-Detection
 ```
 
 2. **Install required packages**
 ```bash
 pip install ultralytics opencv-python cvzone
-```
-
-Or install all dependencies at once:
-```bash
-pip install -r requirements.txt
 ```
 
 3. **Download the trained model**
@@ -410,10 +403,6 @@ This project successfully developed an automated smoking detection system using 
 
 The system shows promising results for deployment in hospitals, shopping malls, and public transportation hubs, with identified areas for future improvement particularly in smoke and vape detection.
 
-## �📝 License
-
-This project is developed as part of CPCS331 - Artificial Intelligence course at King Abdulaziz University.
-
 ## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests for any improvements. Contributions are welcome in:
@@ -443,14 +432,3 @@ For questions or feedback:
 ---
 
 ⭐ **If you find this project helpful, please consider giving it a star!**
-
-🚭 **Note**: This system is designed for monitoring and enforcement purposes in designated anti-smoking areas. Always respect local laws and privacy regulations when deploying surveillance systems.
-
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/MoayadBatwa/Smokers-Detection.git
-cd Smokers-Detection
